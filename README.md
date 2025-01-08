@@ -27,7 +27,11 @@ To run the load test in headless mode with a specific number of users, spawn rat
 locust -f SampleApi.py --headless -u 10 -r 2 -t 60s
 ```
 This will run the test with 10 users, spawning 2 users per second for a duration of 60 seconds.
+
 -f is followed by the path to the Python script that defines the load test behavior (in this case, SampleApi.py).
+
 -u 10: Simulate 10 users.
+
 -r 2: Spawn 2 users per second.
+
 -t 60s: Run the test for 60 seconds.
